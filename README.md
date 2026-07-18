@@ -33,6 +33,10 @@ This tool chains two critical WordPress vulnerabilities to achieve **unauthentic
 ## 🚀 Quick Start
 
 ```bash
+#options:
+  -h, --help show this help message and exit
+python3 wp2shell.py --help
+
 # 1. Check if target is vulnerable
 python3 wp2shell.py check https://target.com
 
